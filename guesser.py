@@ -19,4 +19,5 @@ def guesser(computer_number: int):
         return print("You win!")
 
 
-guesser(computer_number)
+if __name__ == '__main__':
+    guesser(computer_number)
